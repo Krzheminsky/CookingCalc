@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kitchen_calculator/pages/energy.dart';
+import 'package:kitchen_calculator/pages/recipe.dart';
 
 Drawer buildDrawer(BuildContext context, String currentRoute) {
   return Drawer(
@@ -80,6 +81,39 @@ Drawer buildDrawer(BuildContext context, String currentRoute) {
                   MaterialPageRoute(
                     builder: (context) {
                       return const Energy(title: 'Калькулятор калорій');
+                    },
+                  ),
+                );
+              },
+            ),
+          ),
+        ),
+        Card(
+          elevation: 6,
+          child: Container(
+            margin: const EdgeInsets.only(
+                left: 0.0, bottom: 10.0, top: 10.0, right: 0.0),
+            child: ListTile(
+              title: const Text('Галицькі рецепти',
+                  style: TextStyle(
+                    color: Colors.brown,
+                    fontWeight: FontWeight.w500,
+                  )),
+              subtitle: const Text(
+                'Рецепти галицької кухні',
+                style: TextStyle(fontSize: 10),
+              ),
+              trailing: const Icon(
+                Icons.arrow_forward_ios,
+                size: 14,
+              ),
+              dense: true,
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return const Recipe(title: 'Галицькі рецепти');
                     },
                   ),
                 );

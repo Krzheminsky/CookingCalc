@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928794507026",
+    "project_id": "coocingcalc",
+    "storage_bucket": "coocingcalc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928794507026:android:e13cd340c974c09a61a5cb",
+        "android_client_info": {
+          "package_name": "com.example.kitchen_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928794507026-r3a798ag2fil7qnvod97pjo754gq21m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0J7l6NfiEM3W4wMYv1K82F-5aIyE-Z-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928794507026-r3a798ag2fil7qnvod97pjo754gq21m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
